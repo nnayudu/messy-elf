@@ -8,8 +8,8 @@ with open("README.md", "r") as fh:
 
 
 setuptools.setup(
-    name="messy-elf",
-    version="0.0.4",
+    name="messy_elf",
+    version="0.0.5",
     author="Nishant Nayudu",
     author_email="nishant.nayudu@gmail.com",
     description="Testing package for Pypi/Pipenv Functions",
@@ -17,7 +17,6 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/nnayudu/messy-elf",
-    download_url="https://github.com/nnayudu/messy-elf/archive/0.0.3.tar.gz",
     packages=setuptools.find_packages('messyelf'),
     package_dir={
         '': 'messyelf',
