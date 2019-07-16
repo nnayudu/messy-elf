@@ -11,7 +11,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="messy_elf",
-    version="0.0.2",
+    version="0.0.3",
     author="Nishant Nayudu",
     author_email="nishant.nayudu@gmail.com",
     description="Testing package for Pypi/Pipenv Functions",
