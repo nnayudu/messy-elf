@@ -10,7 +10,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="messy-elf",
+    name="messy_elf",
     version="0.0.1",
     author="Nishant Nayudu",
     author_email="nishant.nayudu@gmail.com",
