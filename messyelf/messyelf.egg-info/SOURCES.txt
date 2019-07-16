@@ -1,0 +1,7 @@
+README.md
+setup.py
+messyelf/messyelf.egg-info/PKG-INFO
+messyelf/messyelf.egg-info/SOURCES.txt
+messyelf/messyelf.egg-info/dependency_links.txt
+messyelf/messyelf.egg-info/requires.txt
+messyelf/messyelf.egg-info/top_level.txt

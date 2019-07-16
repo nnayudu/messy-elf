@@ -1,6 +1,3 @@
-import requests
-
-
 class MessyElfClient():
 
 	def __init__(self, name):

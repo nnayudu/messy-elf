@@ -2,16 +2,14 @@
 
 import setuptools
 
-install_requires = [
-    'requests>=2.13.0',
-]
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+
 setuptools.setup(
-    name="messy_elf",
-    version="0.0.3",
+    name="messyelf",
+    version="0.0.4",
     author="Nishant Nayudu",
     author_email="nishant.nayudu@gmail.com",
     description="Testing package for Pypi/Pipenv Functions",
@@ -19,7 +17,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/nnayudu/messy-elf",
-    install_requires=install_requires,
+    download_url="https://github.com/nnayudu/messy-elf/archive/0.0.3.tar.gz",
     packages=setuptools.find_packages('messyelf'),
     package_dir={
         '': 'messyelf',
